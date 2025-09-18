@@ -1,1 +1,27 @@
-
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Limpeza Completa",
+      "description": "Aspiração, escovação, coleta de resíduos e ajuste químico.",
+      "price_range": "Sob orçamento"
+    },
+    {
+      "id": 2,
+      "name": "Plano Mensal (4 visitas)",
+      "description": "Manutenção recorrente para manter a piscina sempre cristalina.",
+      "price_range": "Sob orçamento"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "client_name": "Fernanda Lima",
+      "client_title": "Residência - Alto da Boa Vista",
+      "rating": 5,
+      "testimonial_text": "Serviço caprichado! O Benedito explicou tudo com paciência e deixou a água perfeita.",
+      "is_featured": true,
+      "is_approved": true
+    }
+  ]
+}
