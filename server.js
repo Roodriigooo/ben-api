@@ -1,17 +1,15 @@
 // server.js (CommonJS)
-const path = require('path');
 const jsonServer = require('json-server');
+const path = require('path');
 
 const server = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, 'db.json'));
-const middlewares = jsonServer.defaults({
-  static: path.join(__dirname, 'public') // serve /public na raiz
-});
+const middlewares = jsonServer.defaults({ static: 'public' });
 
-// middlewares (logger, CORS, static, etc.)
+// middlewares (logger, CORS, servir /public, etc.)
 server.use(middlewares);
 
-// endpoint para retornar o DB inteiro
+// rota para retornar o DB completo (útil pra testar no navegador)
 server.get('/db', (req, res) => {
   res.jsonp(router.db.getState());
 });
