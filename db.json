@@ -23,5 +23,40 @@
       "is_featured": true,
       "is_approved": true
     }
+  ],
+  "portfolio": [
+    {
+      "id": 101,
+      "title": "Transformação Completa - Vila Madalena",
+      "description": "Piscina residencial com água verde foi completamente transformada.",
+      "before_image_url": "https://picsum.photos/id/1011/800/500",
+      "after_image_url":  "https://picsum.photos/id/1015/800/500",
+      "location": "Vila Madalena, SP",
+      "service_type": "Limpeza Emergencial",
+      "is_featured": true,
+      "video_url": ""
+    },
+    {
+      "id": 102,
+      "title": "Manutenção Preventiva - Jardins",
+      "description": "Serviço regular de manutenção mantém a piscina sempre cristalina.",
+      "before_image_url": "https://picsum.photos/id/1025/800/500",
+      "after_image_url":  "https://picsum.photos/id/1039/800/500",
+      "location": "Jardins, SP",
+      "service_type": "Manutenção",
+      "is_featured": true,
+      "video_url": ""
+    },
+    {
+      "id": 103,
+      "title": "Limpeza Profissional - Moema",
+      "description": "Limpeza completa com tratamento químico especializado.",
+      "before_image_url": "https://picsum.photos/id/1043/800/500",
+      "after_image_url":  "https://picsum.photos/id/1053/800/500",
+      "location": "Moema, SP",
+      "service_type": "Limpeza",
+      "is_featured": false,
+      "video_url": ""
+    }
   ]
 }
